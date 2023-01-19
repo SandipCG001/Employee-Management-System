@@ -1,0 +1,18 @@
+--A.display all employees whose salary is in the range of 20000 and 45000
+SELECT * FROM Employee WHERE empsal BETWEEN 20000 AND 45000;
+
+
+--B. display all employees whose name starts with "T"
+SELECT * FROM Employee WHERE empname LIKE 'T%';
+
+--C. display all  departments ,whose location is "Chennai"
+SELECT * FROM Department WHERE deptloc='Chennai';
+
+--D. filter the department whose department loc in "Chennai","hyderabad"
+SELECT * FROM Department WHERE deptloc='Chennai' OR deptloc='hyderabad';
+
+--E. filter the employees whose emploc not in "Chennai","Hyderabad"
+SELECT * FROM Employees WHERE NOT emploc='Chennai' AND NOT emploc='Hyderabad';;
+
+
+ 

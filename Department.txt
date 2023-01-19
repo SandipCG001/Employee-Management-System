@@ -1,0 +1,1 @@
+CREATE TABLE Department(deptid INTEGER,deptname TEXT NOT NULL,deptloc TEXT NOT NULL);
